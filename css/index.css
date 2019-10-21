@@ -1,0 +1,67 @@
+
+
+.container_b {
+    width: 100%;
+    position: relative;
+    /*padding-bottom: 40px;*/
+    display: flex;
+    flex-wrap: wrap;
+    /*justify-content: space-evenly;*/
+    justify-content: center;
+    margin: 0 auto;
+    box-shadow: 0 0 1em #000000;
+}
+
+.container_b_style {
+    /*width: 100%;
+    position: relative;
+    padding-bottom: 40px;*/
+    display: flex;
+    flex-wrap: wrap;
+    /*justify-content: space-evenly;*/
+    justify-content: center;
+    margin: 0 auto;
+    /*box-shadow: 0 0 1em #000000;*/
+    margin-top: 2em;
+}
+
+.espacamento-top {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.border-table {
+    /*definimos a largura do box*/
+	width: auto;
+	/* definimos a altura do box */
+	height: auto;
+	/* definimos a cor de fundo do box*/ 
+	background-color:#9f9bd8;
+	/* definimos o quão arredondado irá ficar nosso box */
+    border-radius: 10px;
+    /* Espaço borda superior */
+    padding-top: 1em;
+}
+.table th, td {
+    /*text-align: center;*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+
+}
+.table-striped > tbody > tr {
+    background-color: #ffffff;
+}
+
+/*.table-striped > tbody > td {
+    background-color: #ffffff;
+}*/
+
+.table-hover > tbody > tr:hover {
+    background-color: #ffffff;
+    color: #ffffff;
+}
+
+.botao-voltar {
+    background-color:#9f9bd8;
+    color: #ffffff;
+}
